@@ -14,6 +14,8 @@ stack build
 stack test
 ```
 
+Realmente no se agrego ninguna funcionalidad al archivo `src/Main.hs`, es por esto que lo principal que se debe ejecutar son las pruebas con el comando `stack test` para verificar que las funciones implementadas en `src/Tarea1.hs` funcionan correctamente.
+
 ## Estudiante
 
 - Luis Isea [@lmisea](https://github.com/lmisea) (19-10175).
