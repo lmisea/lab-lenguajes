@@ -69,7 +69,6 @@ parsearCondicional ss = map parseOne ss
 -- filtrados utilizando una operación de plegado (fold).
 sumaAcumuladaCondicional :: Float -> [Float] -> Float
 sumaAcumuladaCondicional umbral xs = foldl (+) 0 (filter (> umbral) xs)
-
 -------------------------------------------------------------------------------
 -- Problema 5: Generación de Coordenadas Impares
 -------------------------------------------------------------------------------
@@ -92,5 +91,6 @@ coordenadasImpares n = [(x, y) | x <- [1..n], y <- [1..n], odd (x + y)]
 descomponerListaSegura :: [a] -> Maybe (a, [a])
 descomponerListaSegura []     = Nothing
 descomponerListaSegura (x:xs) = Just (x, xs)
+-- No es necesario usar recursión en esta función ya que podemos usar pattern matching. Por eso la función no es recursiva.
 
 -------------------------------------------------------------------------------
