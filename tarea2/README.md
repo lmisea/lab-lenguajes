@@ -7,7 +7,7 @@ Este tarea 2 se implementará en **Prolog** para practicar el paradigma de la pr
 
 ## Ejecución
 
-Para ejecutar el proyecto de la tarea 2, usaremos `swipl`, y tenemos dos principales problema, así que para ejecutar el primero, cargamos el archivo `prelaciones.pl` en el intérprete de Prolog con el siguiente comando:
+Para ejecutar los problemas de la tarea 2, usaremos `swipl`. Son dos problemas independientes, así que para ejecutar el primero, cargamos el archivo `prelaciones.pl` en el intérprete de Prolog con el siguiente comando:
 
 ```bash
 swipl -s prelaciones.pl
